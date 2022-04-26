@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*seccion inicio*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 1.5rem;
+    background-image: url(./fondoporfolio1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white
+}
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 125vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, grey,black);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.inicio-container {
+    min-height:100vh;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+
+
+}
+.inicio-div {
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), -2px 5px 5px #0A0A0A;
+  
+}
+.inicio-div a {
+    align-self: flex-end;
+    justify-self: flex-start;
+    text-decoration: none;
+    color: beige;
+}
+.knowme:hover{
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.logo {
+    width:4rem;
+    border-radius: 50%
+    ;
+}
+
+.logo:hover{
+    transform: scale(2);
+    transition: all 1s ease-in;
+}
